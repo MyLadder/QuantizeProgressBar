@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             protected Void doInBackground(Void... params) {
                 while (i < 10){
                     try {
-                        Thread.sleep(1000);
+                        Thread.sleep(10000);
                         runOnUiThread(new Runnable() {
                             @Override
                             public void run() {

@@ -6,6 +6,7 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 
 public class QuantizeProgressBar extends View {
@@ -128,6 +129,12 @@ public class QuantizeProgressBar extends View {
                 getMeasuredHeight() / 2,
                 dotRadius,
                 currentPaint);
+
+        Log.e("gg", String.valueOf(dotRadius));
+        canvas.drawCircle(xCoordinate + step,
+                getMeasuredHeight() / 2,
+                dotRadius-(dotRadius*0.3f),
+                completePaint);
     }
 
     private void drawCircles(Canvas canvas) {
