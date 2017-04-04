@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="semi_transparent_white">#80ffffff</color>
+    <color name="ithaka_primary_color">#f05f71</color>
+</resources>
