@@ -130,10 +130,9 @@ public class QuantizeProgressBar extends View {
                 dotRadius,
                 currentPaint);
 
-        Log.e("gg", String.valueOf(dotRadius));
         canvas.drawCircle(xCoordinate + step,
                 getMeasuredHeight() / 2,
-                dotRadius-(dotRadius*0.3f),
+                dotRadius - (dotRadius * 0.4f),
                 completePaint);
     }
 
