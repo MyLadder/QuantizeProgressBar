@@ -29,6 +29,7 @@ public class QuantizeProgressBar extends View {
     public QuantizeProgressBar(Context context, AttributeSet attrs) {
         super(context, attrs);
         initializeAttributes(attrs);
+        init();
     }
 
     private void initializeAttributes(AttributeSet attrs) {

@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/QuantizeProgressBar.iml" filepath="$PROJECT_DIR$/QuantizeProgressBar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QuantizeProgressBar.iml" filepath="$PROJECT_DIR$/QuantizeProgressBar.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quantizeprogressbar/quantizeprogressbar.iml" filepath="$PROJECT_DIR$/quantizeprogressbar/quantizeprogressbar.iml" />
       <module fileurl="file://$PROJECT_DIR$/quantizeprogressbar/quantizeprogressbar.iml" filepath="$PROJECT_DIR$/quantizeprogressbar/quantizeprogressbar.iml" />
     </modules>
   </component>
